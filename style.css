@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: Source Sans Pro, sans-serif;
+}
+
+.header {
+    padding: 0 45px;
+    background-color: #283593;
+    color:#FFF ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav a {
+    color: #FFF;
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s ease-out;
+}
+
+.nav a:hover {
+    color: #c5cae9;
+    transform: rotate(6deg);
+}
+
+.nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.nav li {
+    margin-left: 20px;
+}
+
+.hero {
+    background-color: #c5cae9;
+    padding: 60px 45px;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-inner {
+    width: 760px; 
+}
